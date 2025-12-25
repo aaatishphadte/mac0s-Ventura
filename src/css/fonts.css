@@ -1,0 +1,35 @@
+/* Custom Fonts Configuration */
+
+/* 
+  Place your custom font files in /public/fonts/ folder
+  Supported formats: .ttf, .otf, .woff, .woff2
+  
+  Example structure:
+  /public/fonts/YourFont-Regular.ttf
+  /public/fonts/YourFont-Bold.ttf
+*/
+
+/* SF-Pro Font */
+@font-face {
+    font-family: 'SF Pro';
+    src: url('/fonts/SF-Pro.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Optional: Apply fonts globally */
+/* 
+:root {
+  --custom-font-primary: 'CustomFont1', -apple-system, BlinkMacSystemFont, sans-serif;
+  --custom-font-secondary: 'CustomFont2', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  font-family: var(--custom-font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--custom-font-secondary);
+}
+*/
